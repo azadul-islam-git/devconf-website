@@ -1,3 +1,37 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: "Inter", sans-serif;
+}
+
+/* navbar css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #ffffff;
+}
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbar-btn .register-btn {
+  background-color: #1D4ED8;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
