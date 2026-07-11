@@ -124,7 +124,7 @@
     font-size: 20px;
     margin-bottom: 8px;
 }
-.speaker-role{
+.speaker-company{
     font-size: 14px;
 }
 
@@ -258,4 +258,66 @@
     text-decoration: none;
     color: #94A3B8;
     font-size: 14px;
+}
+
+/* conference schedule css */
+.schedule {
+    padding: 100px 0;
+}
+.schedule-title {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.schedule-paragraph {
+    text-align: center;
+    font-size: 18px;
+    color: #6B7280;
+    margin-bottom: 56px;
+}
+.schedule-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.schedule-card {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+.schedule-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.session-time {
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.session-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.session-speaker {
+    color: #4B5563;
+    margin-bottom: 8px;
+}
+.session-location {
+    color: #6B7280;
+    font-size: 15px;
+}
+.session-time i,
+.session-location i {
+    margin-right: 8px;
+}
+.session-location i {
+    color: #2563EB;
+}
+.session-time {
+    color: #2563EB;
 }
