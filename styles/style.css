@@ -1,7 +1,13 @@
+/* reset css */
 *{
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
 }
 
 /* navbar css */
@@ -34,4 +40,45 @@
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+}
+
+/* hero css */
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent), url("../images/banner.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+.hero-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 120px;
+}
+.hero-paragraph {
+    margin-bottom: 280px;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+.hero-btn{
+    background-color: #1D4ED8;
+    color: #ffffff;
+    border: none;
+    padding: 25px 60px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
 }
